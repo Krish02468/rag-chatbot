@@ -1,0 +1,11 @@
+Machine learning is a subset of artificial intelligence that allows computers to learn from data without being explicitly programmed.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+In supervised learning, the model is trained on labeled data, meaning each example has an input and a known correct output.
+
+Deep learning is a type of machine learning that uses neural networks with many layers to learn complex patterns in data.
+
+Natural Language Processing or NLP is a branch of AI that deals with the interaction between computers and human language.
+
+RAG stands for Retrieval Augmented Generation. It combines document retrieval with language generation to give accurate answers.

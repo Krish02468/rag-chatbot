@@ -1,0 +1,15 @@
+A neural network is a computational model inspired by the human brain, consisting of layers of interconnected nodes called neurons.
+
+A neural network has three types of layers: input layer, hidden layers, and output layer. The input layer receives data, hidden layers process it, and the output layer produces the final result.
+
+Activation functions introduce non-linearity into neural networks. Common activation functions include ReLU, Sigmoid, and Tanh. ReLU is the most widely used because it solves the vanishing gradient problem.
+
+Backpropagation is the algorithm used to train neural networks. It calculates the gradient of the loss function with respect to each weight and updates the weights to minimize the loss.
+
+Overfitting occurs when a model learns the training data too well and performs poorly on new data. Techniques to prevent overfitting include dropout, regularization, and early stopping.
+
+A convolutional neural network or CNN is designed for processing grid-like data such as images. It uses convolutional layers to automatically learn spatial features like edges and textures.
+
+A recurrent neural network or RNN is designed for sequential data like text and time series. It has loops that allow information to persist across time steps.
+
+The vanishing gradient problem occurs in deep networks when gradients become very small during backpropagation, making it hard to train early layers. LSTM and GRU architectures solve this problem.

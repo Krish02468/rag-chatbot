@@ -1,0 +1,15 @@
+Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties.
+
+The key components of reinforcement learning are: agent, environment, state, action, reward, and policy. The agent takes actions in the environment, receives rewards, and learns a policy to maximize cumulative reward.
+
+Q-learning is a model-free reinforcement learning algorithm that learns the value of taking a specific action in a specific state. It uses a Q-table to store these values and updates them based on rewards received.
+
+Deep Q-Network or DQN combines Q-learning with deep neural networks. Instead of a Q-table it uses a neural network to approximate Q-values, allowing it to handle complex state spaces like video games.
+
+Policy gradient methods directly optimize the policy that the agent follows, rather than learning value functions. REINFORCE is a basic policy gradient algorithm.
+
+The exploration vs exploitation tradeoff is a core challenge in RL. The agent must balance exploring new actions to discover better rewards versus exploiting known good actions.
+
+Markov Decision Process or MDP is the mathematical framework used to model reinforcement learning problems. It assumes the future depends only on the current state and action, not on past history.
+
+AlphaGo by DeepMind used reinforcement learning combined with Monte Carlo tree search to defeat world champion Go players, demonstrating the power of deep reinforcement learning.

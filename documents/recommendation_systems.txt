@@ -1,0 +1,15 @@
+A recommendation system is a type of information filtering system that predicts and suggests items a user might be interested in based on various data inputs.
+
+Collaborative filtering recommends items based on the preferences of similar users. It assumes that if two users agreed in the past, they will agree in the future. Netflix and Amazon use collaborative filtering.
+
+Content-based filtering recommends items similar to what a user has liked before, based on item features. For example recommending movies with the same genre or director as previously watched movies.
+
+Matrix factorization is a collaborative filtering technique that decomposes the user-item interaction matrix into lower dimensional matrices. SVD or Singular Value Decomposition is a popular matrix factorization method.
+
+The cold start problem occurs when a recommendation system cannot make good recommendations for new users or new items because there is not enough interaction data.
+
+Neural collaborative filtering replaces the dot product in matrix factorization with a neural network, allowing the model to learn more complex user-item interactions.
+
+Implicit feedback refers to indirect signals of user preference like clicks, views, and purchase history. Explicit feedback is direct ratings like stars. Most real-world recommenders rely heavily on implicit feedback.
+
+Precision at K and Recall at K are common metrics for evaluating recommendation systems. Precision at K measures what fraction of the top K recommendations were relevant. Recall at K measures what fraction of all relevant items appeared in the top K.

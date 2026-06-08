@@ -1,0 +1,15 @@
+The Transformer architecture was introduced in the paper Attention is All You Need in 2017. It replaced recurrent networks with self-attention mechanisms and became the foundation of modern NLP.
+
+Self-attention allows a model to look at all words in a sentence simultaneously and understand relationships between them regardless of distance. For example it can understand that "it" in a sentence refers to a specific noun earlier in the text.
+
+BERT stands for Bidirectional Encoder Representations from Transformers. It reads text in both directions simultaneously which gives it deep understanding of context. BERT is used for tasks like classification, question answering, and named entity recognition.
+
+GPT stands for Generative Pre-trained Transformer. Unlike BERT it reads text left to right and is designed for text generation. GPT models are the basis for ChatGPT.
+
+Tokenization is the process of splitting text into smaller units called tokens before feeding it to a model. A token can be a word, subword, or character depending on the tokenizer used.
+
+Word embeddings are dense vector representations of words where similar words have similar vectors. Word2Vec and GloVe are classic embedding methods. Modern transformers learn their own embeddings during training.
+
+Fine-tuning is the process of taking a pre-trained model and training it further on a specific task with a smaller dataset. This is much more efficient than training from scratch.
+
+Transfer learning in NLP involves using knowledge from a model trained on a large corpus like Wikipedia and applying it to a specific task like sentiment analysis or question answering.

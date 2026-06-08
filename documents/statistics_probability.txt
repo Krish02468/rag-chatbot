@@ -1,0 +1,15 @@
+Probability is a measure of how likely an event is to occur, ranging from 0 (impossible) to 1 (certain).
+
+Bayes theorem describes how to update the probability of a hypothesis based on new evidence. It is fundamental to many machine learning algorithms including Naive Bayes classifiers.
+
+A probability distribution describes how probabilities are spread across possible values. Common distributions include Normal or Gaussian, Bernoulli, Binomial, and Poisson distributions.
+
+The normal distribution is a bell-shaped curve that is symmetric around the mean. Many natural phenomena follow this distribution. It is defined by two parameters: mean and standard deviation.
+
+Bias and variance are two sources of error in machine learning models. Bias is error from wrong assumptions in the model. Variance is error from sensitivity to small fluctuations in training data. The bias-variance tradeoff means reducing one often increases the other.
+
+The Central Limit Theorem states that the distribution of sample means approaches a normal distribution as sample size increases, regardless of the original distribution. This is why the normal distribution appears so frequently in statistics.
+
+Hypothesis testing is a statistical method to determine if results are significant or due to chance. The p-value measures the probability of observing results as extreme as the data if the null hypothesis is true.
+
+Cross validation is a technique to evaluate model performance by splitting data into multiple folds and training/testing on different combinations. K-fold cross validation is the most common approach.
