@@ -1,7 +1,9 @@
 import streamlit as st
 from ingest_docs import collection, model as embedding_model
 from rag_pipeline import get_answer
-
+import os
+if not os.path.exists("chroma_store"):
+    import ingest_docs
 # ---- PAGE SETUP ----
 st.set_page_config(
     page_title="RAG Chatbot",

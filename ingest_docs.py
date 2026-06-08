@@ -30,3 +30,5 @@ collection.add(
 )
 
 print("✅ Documents stored in ChromaDB successfully!")
+if __name__ == "__main__":
+    print("Ingestion complete")
