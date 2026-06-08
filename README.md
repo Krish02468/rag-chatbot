@@ -20,3 +20,6 @@ questions grounded strictly in a custom ML knowledge base.
 pip install -r requirements.txt
 python ingest_docs.py
 streamlit run app.py
+
+## Live Demo
+👉 [Try it here](https://rag-chatbot-wmvvrhscyflivctyq4cyvn.streamlit.app/)
