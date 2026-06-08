@@ -14,11 +14,7 @@ def setup():
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
     
     # Connect to ChromaDB
-    chroma_client = chromadb.Client(chromadb.Settings(
-    chroma_db_impl="duckdb+parquet",
-    persist_directory="/tmp/chroma_store",
-    anonymized_telemetry=False
-))
+    chroma_client = chromadb.PersistentClient(path="/tmp/chroma_store")
     collection = chroma_client.get_or_create_collection("my_docs")
     
     # Auto-ingest documents if collection is empty
